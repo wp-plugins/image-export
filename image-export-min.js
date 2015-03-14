@@ -1,0 +1,4 @@
+/**
+ * Custom Javascript Code by 1eftHander
+ */
+(function(a){a(document).ready(function(){a("#post-query-submit").parent("div").append('<button type="button" id="ie-excute" class="button button-primary">'+message.m001+"</button>");a("#ie-excute").click(function(){var c=a("#the-list input[type=checkbox]:checked");if(c.length<1){alert(message.m002);return false}var b=[];c.each(function(e){b.push(a(this).val())});var d={action:"ie_execute",id:b.join(",")};a.post(obj.link,d,function(f){var e=a.parseJSON(f);a("#wpbody-content .wrap").prepend(e.msg);if(e.url!=""){window.location=e.url}})})})})(jQuery);
