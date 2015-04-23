@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Image Export\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sat Mar 14 2015 01:01:56 GMT+0900 (대한민국 표준시)\n"
-"PO-Revision-Date: Sat Mar 14 2015 01:10:55 GMT+0900 (대한민국 표준시)\n"
+"PO-Revision-Date: Thu Apr 23 2015 10:05:19 GMT+0900 (대한민국 표준시)\n"
 "Last-Translator: mbr <lh.jhkim+mbr@gmail.com>\n"
 "Language-Team: \n"
 "Language: Korean\n"
@@ -22,19 +22,23 @@ msgstr ""
 "X-Generator: Loco - https://localise.biz/\n"
 "X-Loco-Target-Locale: ko_KR"
 
-#: ../image-export.php:25
+#: ../image-export.php:37 ../image-export.php:153
 msgid "Image Export"
 msgstr "이미지 다운로드"
 
-#: ../image-export.php:26
+#: ../image-export.php:38
 msgid "Please select the image you want to download."
 msgstr "다운로드할 이미지를 선택하십시오."
 
-#: ../image-export.php:93
+#: ../image-export.php:124
 #, php-format
-msgid "Image.zip file has been downloaded. Export file size : %s"
-msgstr "Images.zip 파일이 다운로드 되었습니다. 다운로드 파일 크기 : %s"
+msgid "Images.zip file has been downloaded. Export file size : %s"
+msgstr "Images.zip 파일 다운로드 완료. 파일 크기 : %s"
 
-#: ../image-export.php:95
+#: ../image-export.php:126
 msgid "Failed to create images.zip. Please contact the developer."
 msgstr "Images.zip 압축 실패. 개발자에게 문의하십시오."
+
+#: ../image-export.php:129
+msgid "This post, there is no image."
+msgstr "이 글에는 이미지가 없습니다."
